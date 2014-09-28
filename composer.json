@@ -1,0 +1,21 @@
+{
+    "name": "saxulum/saxulum-hint",
+    "description": "Saxulum Hint",
+    "keywords": ["saxulum", "hint"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Zogg",
+            "email": "dominik.zogg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-0": { "Saxulum\\Hint": "src/" }
+    }
+}
